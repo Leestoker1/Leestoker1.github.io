@@ -1,7 +1,7 @@
 /*The Camp */
 #maintitle {
   text-align: center;
-  font-family: fantasy;
+  font-family: 'Teko', sans-serif;;
   font-size: 5vw;
   color:firebrick;
 }
@@ -108,7 +108,7 @@ li {
 
 #p2head {
   color:cornsilk;
-  font-family:cursive;
+  font-family:'Sriracha', cursive;
   font-size: 75px;
   text-align: center;
   padding: 10px;
@@ -120,7 +120,7 @@ margin: auto;
 margin-bottom: 10px;
 text-align:justify;
 text-align: center;
-font-family:cursive;
+font-family:'Sriracha', cursive;
 border-radius: 10px;
 font-size: 15px;
 width: 750px;
@@ -149,7 +149,7 @@ background-color:rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
   margin-top: 10px;
   color:white;
-  font-family: fantasy;
+  font-family: 'Teko', sans-serif;;
   font-size: 100px;
   padding: 10px;
   border-radius: 25px;
