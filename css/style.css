@@ -2,7 +2,7 @@
 #maintitle {
   text-align: center;
   font-family: 'Teko', sans-serif;;
-  font-size: 7vw;
+  font-size: 6vw;
   color:firebrick;
 }
 
@@ -18,7 +18,6 @@ li {
 
 .list1 {
   margin-bottom: 25px;
-  margin-top: 10px;
 }
 
 .list2 {
@@ -173,7 +172,7 @@ background-color:rgba(0, 0, 0, 0.5);
   z-index: 1;
   left: 0;
   width: 4500px; 
-  height: 250px;
+  height: 800px;
   transition: left .5s ease-in-out;
 }
 
@@ -196,7 +195,6 @@ background-color:rgba(0, 0, 0, 0.5);
   font-weight: bold;
   font-size: 30pt;
   padding: 0px 25px;
-  margin-top: 300px;
   transition: all .25s ease;
   opacity: 0;
 }
@@ -231,7 +229,7 @@ background-color:rgba(0, 0, 0, 0.5);
  position: absolute;
   text-align: center;
   margin-left: 585px;
-  margin-top: 185px;
+  margin-top: 85px;
   content: "Hover over the image to show navigation";
   font-size: 1em;
   color:cornsilk;
@@ -276,7 +274,7 @@ background-color:rgba(0, 0, 0, 0.5);
   width: fit-content;
   border-radius: 25px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 650px;
   font-size: 20px;
   background-color:rgba(0, 0, 0, 0.8); 
 }
@@ -287,19 +285,14 @@ td, th {
   width: 70px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 #table1 {
   float: left;
   color:red;
   border: 1px solid black;
   margin-left: 500px;
   margin-top: 20px;
-  padding: 20px;
   text-align: center;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0, 0.8);
 }
 
 #table2 {
@@ -308,9 +301,8 @@ td, th {
   border: 1px solid black;
   margin-top: 20px;
   margin-right: 500px;
-  padding: 20px;
   text-align: center;
-  background-color:rgba(0, 0, 0, 0.8); 
+  background-color:rgba(0, 0, 0, 0.9); 
 }
 
 @media(max-width:70px){
