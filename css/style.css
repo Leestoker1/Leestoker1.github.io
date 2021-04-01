@@ -267,7 +267,12 @@ background-color:rgba(0, 0, 0, 0.5);
   color: darkorange;
   font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
-  text-align: center;
+  background-color:rgba(0, 0, 0, 0.8) ;
+  border-radius: 25px;
+  display: flex;
+  margin: auto;
+  width: 650px;
+  padding: 10px;
 }
 
 #rundown {
@@ -278,7 +283,7 @@ background-color:rgba(0, 0, 0, 0.5);
   width: fit-content;
   border-radius: 25px;
   padding: 10px;
-  margin-top: 650px;
+  margin-top: 600px;
   font-size: 20px;
   background-color:rgba(0, 0, 0, 0.8); 
 }
