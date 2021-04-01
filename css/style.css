@@ -191,6 +191,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 .carousel nav a {
   text-decoration: none;
+  margin-top: 300px;
   color: #FFF;
   font-weight: bold;
   font-size: 30pt;
@@ -230,8 +231,8 @@ background-color:rgba(0, 0, 0, 0.5);
 #nav::before {
  position: absolute;
   text-align: center;
-  margin-left: 585px;
-  margin-top: 185px;
+  margin-left: 790px;
+  margin-top: 215px;
   content: "Hover over the image to show navigation";
   font-size: 1em;
   color:cornsilk;
