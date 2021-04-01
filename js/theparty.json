@@ -1,0 +1,28 @@
+[
+    {"url":"/img/Agnes.jpg", "caption":"Human-Bard"
+    },
+    {
+    "url": "/img/Bark.jpg", "caption":"Half-Orc-Ranger"
+    },
+    {
+    "url":"/img/Emron.jpg", "caption":"Elf-Druid"
+    },
+    {
+    "url": "/img/Isaak.jpg", "caption":"Aasimar-Warlock"
+    },
+    {
+    "url":"img/Kerri.jpg", "caption":"Human-Sorcerer/Rogue"
+    },
+    {
+    "url":"/img/Kora.jpg", "caption":"Firbolg-Cleric"
+    },
+    {
+    "url":"/img/Sparhawk.jpg", "caption":"Human-Paladin"
+    },
+    {
+    "url":"/img/Vorkris.jpg", "caption":"Dragonborn-Wizard"
+    },
+    {
+    "url":"/img/Jack.jpg", "caption":"Human-Dungeon Master"
+    }
+]

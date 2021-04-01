@@ -1,0 +1,28 @@
+[
+    {"url":"/img/welcome.jpg", "caption":"The Intro"
+    }, 
+
+    {"url":"/img/apex.jpg", "caption":"Our first deadly fight"
+    },
+
+    {"url":"/img/gloria.jpg", "caption":"Sparhawk reunites with Gloria and we pick up a new member"
+    },
+
+    {"url":"/img/Hobgob.jpg", "caption":"Stumbling upon a ritual"
+    },
+
+    {"url":"/img/neworder.jpg", "caption":"Our meeting with a secret group"
+    },
+
+    {"url":"/img/ambush.jpg", "caption":"Ambushed during a diplomatic meeting"
+    },
+   
+    {"url":"/img/star.jpg", "caption":"Setting Star Settlment free"
+    },
+
+    {"url":"/img/deal.jpg", "caption":"Paying the patron"
+    },
+
+    {"url":"/img/End.jpg", "caption":"Follow on the channel to see what happens next!"
+    }
+]
