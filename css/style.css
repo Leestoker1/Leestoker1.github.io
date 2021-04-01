@@ -220,16 +220,18 @@ background-color:rgba(0, 0, 0, 0.5);
   font-family: 'Lobster Two', cursive;
   font-size:x-large;
   height: 40px;
-  line-height: 10px;
+  line-height: 40px;
   background-color:rgba(255, 3, 142, 0.3);
   border-radius: 8px;
+  width: 500px;
+  color: cornsilk;
 }
 
 #nav::before {
  position: absolute;
   text-align: center;
   margin-left: 585px;
-  margin-top: 85px;
+  margin-top: 185px;
   content: "Hover over the image to show navigation";
   font-size: 1em;
   color:cornsilk;
@@ -238,15 +240,16 @@ background-color:rgba(0, 0, 0, 0.5);
 }
 
 @media(max-width:500px){
-  .carousel, .carousel-images, .carousel-images img {
+  .carousel, .carousel-images, .carousel-images img, .carousel-caption {
     width: 100%;
   }
 }
 @media(max-width:250px){
-  .carousel, .carousel-images, .carousel-images img {
+  .carousel, .carousel-images, .carousel-images img, .carousel-caption {
     width: 50%;
   }
 }
+
 
 
 /*Meet the party */
