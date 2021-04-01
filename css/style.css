@@ -2,7 +2,7 @@
 #maintitle {
   text-align: center;
   font-family: 'Teko', sans-serif;;
-  font-size: 5vw;
+  font-size: 7vw;
   color:firebrick;
 }
 
@@ -11,27 +11,27 @@ ul {
   text-align: center;
   width: 1850px;
 }
+
 li {
-  display: inline;
+  display: inline-block;
 }
 
-#list1 {
+.list1 {
   margin-bottom: 25px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-#list2 {
-
+.list2 {
   margin-bottom: 20px;
-
 }
 
 .links {
+  background: firebrick;
   font-family: 'Noto Sans JP', sans-serif;
   color: goldenrod;
   padding: 10px;
-  background-color: firebrick;
   border-radius: 25px;
+  margin-right: 5px;
 }
 
 .pics {
@@ -60,9 +60,8 @@ li {
 
 .pics-item caption {
   margin-top: 5px;
-  color:darkorange;
-  font-size: 20px;
-  background-color:rgb(178, 34, 34, 0.7);
+  font-size: 18px;
+  background-color:rgb(178, 34, 34, 0.8);
   border-radius: 10px;
   font-family: 'Noto Sans JP', sans-serif;
 }
@@ -73,6 +72,7 @@ li {
   padding: 10px;
   background-color: goldenrod;
   border-radius: 25px;
+  margin-right: 10px;
 }
 
 @media(max-width:1000px){
@@ -82,7 +82,7 @@ li {
   .pics-item {
     width: 50%;
   }
-  #list1, #list2 {
+  .list1, .list2 {
     width: 80%;
   }
  
@@ -91,13 +91,13 @@ li {
   .pics-item{
     width: 100%;
   }
-  #list1, #list2 {
+  .list1, .list2 {
     width: 50%;
   }
   
 }
 @media(max-width:1850px){
-  #list1, #list2 {
+  .list1, .list2 {
     width: 100%;
   } 
 }
@@ -108,8 +108,9 @@ li {
 
 #p2head {
   color:cornsilk;
-  font-family:'Sriracha', cursive;
-  font-size: 75px;
+  font-family: 'Charm', cursive;
+  font-weight: 700;
+  font-size: 85px;
   text-align: center;
   padding: 10px;
 }
@@ -120,9 +121,9 @@ margin: auto;
 margin-bottom: 10px;
 text-align:justify;
 text-align: center;
-font-family:'Sriracha', cursive;
+font-family:'Lobster Two', cursive;
 border-radius: 10px;
-font-size: 15px;
+font-size: 17px;
 width: 750px;
 padding: 5px;
 color:cornsilk;
@@ -150,7 +151,7 @@ background-color:rgba(0, 0, 0, 0.5);
   margin-top: 10px;
   color:white;
   font-family: 'Teko', sans-serif;;
-  font-size: 100px;
+  font-size: 95px;
   padding: 10px;
   border-radius: 25px;
   width:fit-content;
@@ -173,7 +174,6 @@ background-color:rgba(0, 0, 0, 0.5);
   left: 0;
   width: 4500px; 
   height: 250px;
-  
   transition: left .5s ease-in-out;
 }
 
@@ -219,7 +219,7 @@ background-color:rgba(0, 0, 0, 0.5);
   z-index: 3;
   bottom: 0;
   text-align: center;
-  font-family:cursive;
+  font-family: 'Lobster Two', cursive;
   font-size:x-large;
   height: 40px;
   line-height: 10px;
@@ -228,28 +228,28 @@ background-color:rgba(0, 0, 0, 0.5);
 }
 
 #nav::before {
-  position: absolute;
+ position: absolute;
   text-align: center;
-  margin-left: 750px;
+  margin-left: 585px;
+  margin-top: 185px;
   content: "Hover over the image to show navigation";
   font-size: 1em;
-  margin-top: 1000px;
-  color:#FFF;
-  width: 400px;
+  color:cornsilk;
   font-family:'Noto Sans JP', sans-serif;
-  padding-bottom: 10px;
+  font-style: italic;
 }
 
 @media(max-width:500px){
-  .carousel, .carousel-images, .carousel-images img{
+  .carousel, .carousel-images, .carousel-images img {
     width: 100%;
   }
 }
 @media(max-width:250px){
-  .carousel, .carousel-images, .carousel-images img{
+  .carousel, .carousel-images, .carousel-images img {
     width: 50%;
   }
 }
+
 
 /*Meet the party */
 
@@ -329,25 +329,43 @@ td, th {
 
 /*Links */
 
-a:link {
+.morelinks a:link, .morelinks a:visited, .morelinks a:active {
   background-color: transparent;
   text-decoration: none;
+  color: firebrick;
 }
 
-a:visited {
+.morelinks a:hover {
   background-color: transparent;
   text-decoration: none;
+  color: red;
 }
 
-a:hover {
+.links a:visited, .links a:active, .links a:link {
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: none; 
+  color: goldenrod;
 }
 
-a:active {
+.links a:hover {
   background-color: transparent;
   text-decoration: none;
+  color: yellow;
 }
+
+
+.pics a:link, .pics a:active, .pics  a:visited {
+  text-decoration: none;
+  background-color: none;
+  color: darkorange;
+}
+
+.pics a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: yellow;
+}
+
 /* Links */
 footer {
   margin-top: 40px;
